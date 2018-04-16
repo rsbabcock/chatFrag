@@ -1,0 +1,18 @@
+body {
+    background: tomato;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.message {
+    border-radius: 15%;
+    align-self: flex-start;
+    background: grey;    
+    padding: 2%;
+    margin: 2%;
+}
